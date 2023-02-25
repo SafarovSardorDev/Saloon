@@ -1,0 +1,64 @@
+*, hr{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1170px;
+}
+
+nav{
+    background-color: transparent;
+}
+
+
+
+header{
+    padding: 45px 0;
+    background: #DEECEC;
+
+}
+
+.arrival{
+
+}
+
+.arrival-box{ 
+    position: relative;
+    margin-top: 30px;
+    width: 255px;
+    height: 330px;
+    background: #F7F8FC;
+    border-radius: 4px;
+}
+
+.arrival .btn{
+    padding: 2px 6px;
+    font-weight: 500;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.arrival .btn-primary{
+    position: absolute;
+    top: 11px;
+    left: 22px;
+}
+
+.arrival .btn-danger{
+    position: absolute;
+    top: 11px;
+    right: 22px;
+}
+
+.arrival-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 95px;
+
+}
